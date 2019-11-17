@@ -58,15 +58,15 @@ def naming_system
             :label => "Family",
             :sub_category => {
               :label => "Genus",
+              :sub_category => {
+                :label => "Species"
+              }
             }
           }
         }
       }
     }
   }
-  # So, if we have the "Kingdom" node we should be able to "tunnel" into the
-  # HoH all the way to Species!
-
   #  Class
   #  Order
   #  Family
