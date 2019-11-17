@@ -33,7 +33,7 @@
 def naming_system
   # Remember:
   biological_life = {
-    sub_category => {
+    :sub_category => {
       :label => "Kingdom",
       :sub_category => {
         :label => "Phylum",
